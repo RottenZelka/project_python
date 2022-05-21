@@ -3,6 +3,7 @@ import word_guessing
 import math
 import alphabet_printing
 
+#This file is used for functions using pygame
 pygame.init()
 
 RADIUS = 40
