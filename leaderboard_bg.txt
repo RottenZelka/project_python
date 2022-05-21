@@ -1,0 +1,3 @@
+LEADERBOARD BULGARIAN
+NAME                POINTS
+This leaderboard is still empty. After the first game it would be appended. max 20 chars for name
