@@ -6,6 +6,7 @@ import random
 width = 1500
 
 
+#def that is used for the guessing word check
 def guessing_word(my_word, mode_list, first_mode_points, window, guessed, player):
     word_letters = []
     word_letters.clear()
@@ -39,6 +40,7 @@ def guessing_word(my_word, mode_list, first_mode_points, window, guessed, player
             pygame_events.hanged(window, hangman_status, first_mode_points, mode_list, player, my_word)
 
 
+#def that is used for the finding word check
 def find_word(mode_list):
     my_word = ""
     if int(mode_list[1]) == 1:
@@ -61,5 +63,5 @@ def find_word(mode_list):
 
     else:
         my_word = random.choice(file)
-    print(my_word)
+    #found word
     return my_word
